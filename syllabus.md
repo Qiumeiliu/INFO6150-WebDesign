@@ -82,6 +82,8 @@ Thu Nov 3,
 Thu Nov 10,
 Thu Nov 17, 
 NOT Thu Nov 24 (Holiday)
+Thu Dec 1,
+Thu Dec 8
 
 - Intro to React
 - Deeplinking
