@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+<div id="homepage">
+    <header class="header">
+        <a href="index.html">
+        <img class="header__logo" src="img/Panda logo.webp" alt="It is a panda logo."> </a>
+        <h1 class="header__title">Register</h1>
+    </header>
+  </div>
+  <nav class="dropdown">
+    <button class="dropbtn">Register</button>
+    <div class="dropdown-content">
+      <a href="index.html">Home</a>
+      <a href="about me.html">About Panda</menu></a>
+    </div>
+</nav>
+
+    <main class="main">
+    <div class="form">
+      <form action="submit" method="post">
+        <div class="label">
+          <label for="name" >Name: </label>
+          <input name="name" id="name" placeholder="Required" required>
+        </div>
+        <div class="label">
+          <label for="email" >Email: </label>
+          <input name="email" id="email" placeholder="Required" required>
+        </div>
+     
+
+      <div class="label">
+        Degree of Liking: <select name="tier">
+                <option selected="selected">Please select</option>
+                <option value="1">A little</option>
+                <option value="2">General</option>
+                <option value="3">Crazy</option>
+        </select>
+      </div>
+      <div class="label1">
+        <input type="radio" name="annoy_me">Male</label>
+        <input type="radio" name="annoy_me">Female</label>
+        <label for="spam">
+      </div>
+      <div class="label1">
+        <input type="checkbox" checked="checked" name="annoy_me">Do you want us to send you annoying emails?</label>
+        <label for="spam">
+      </div>
+      <div class="label1">
+        <input type="submit" value="Register">
+      </div>
+       </form>
+    </div>
+    </main>
+    <footer class="footer">
+        <nav class="footer__nav">
+            <ul class="footer__menu">
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Legal</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Message boards</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="#">Privacy policy</a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+  </div>
+    
+</body>
+</html>
