@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="root">
+    <header class="header">
+        <img class="header__logo" src="download.webp" >
+        <h1 class="header__title">Register<h1>
+    </header>
+  </div>
+    <main class="main">
+    <div class="form">
+      <form action="submit" method="post">
+        <div class="label">
+          <label for="name" >Name:</label>
+          <input name="name" id="name" placeholder="Required" required>
+        </div>
+        <div class="label">
+          <label for="email" >Email:</label>
+          <input name="email" id="email" placeholder="Required" required>
+        </div>
+     
+
+      <div class="label">
+        <select name="tier">
+                <option selected="selected">Please select</option>
+                <option value="1">Silver Tier</option>
+                <option value="2">Gold Tier</option>
+                <option value="3">Platinum Tier</option>
+        </select>
+      </div>
+      <div class="label1">
+        <input type="checkbox" checked="checked" name="annoy_me">Do you want us to send you annoying emails?</label>
+        <label for="spam">
+      </div>
+      <div class="label1">
+        <input type="submit" value="Register">
+      </div>
+       </form>
+    </div>
+    </main>
+    <footer class="footer">
+      <nav class="footer__nav">
+          <ul class="footer__menu">
+              <li class="footer__item">
+                  <a class="footer__link" href="#">Privacy policy</a>
+              </li>
+          </ul>
+      </nav>
+  </footer>
+    
+</body>
+</html>
