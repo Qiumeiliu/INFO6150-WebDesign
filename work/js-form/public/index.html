@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="Test.css">
+    <script defer src="Test.js"></script>
+</head>
+<body>
+    <form class="register" action="/register" method="POST">
+
+        <div class="register__name register-name">
+            <label for="name">Name</label>
+                <span class="register-name__error"></span>
+                <input name="name" class="register-name__input" id="name" type="name" placeholder="required">
+            
+            </div>
+
+
+        <div class="register__email register-email">
+            <label for="email">Email</label>
+                <span class="register-email__error"></span>
+                <input name="email" class="register-email__input" id="email" type="email" placeholder="required">
+            
+        </div>
+
+    
+        <div class="register__Confirm register-confirm">
+        <label for="confirm">Confirm Email</label>
+            <span class="register-confirm__error">
+            This field must match the email.
+            </span>
+            <input name="confirm" class="register-confirm__input" id="confirm" type="email" placeholder="required">
+        </div>
+        <div>
+        <button type="submit" style="width:100px;height:20px;" class="register__submit">Register</button>
+         </div>
+        <div class="content">
+            <select name="tier">
+                        <option selected="selected">Please select</option>
+                        <option value="1">Silver Tier</option>
+                        <option value="2">Gold Tier</option>
+                        <option value="3">Platinum Tier</option>
+            </select>
+            </div>
+            <div class="content">
+                <input type="checkbox" checked="checked" name="wants-spam">
+                <label for="wants-spam">Wants-spam</label>
+        </div>
+    </form>
+    
+</body>
+</html>

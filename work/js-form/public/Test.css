@@ -1,0 +1,61 @@
+html{
+    background-color: #73b9a2;
+    padding-top: 10rem;
+   }
+
+form{
+    text-align: center;
+}
+
+
+.register{
+   display:flex;
+   flex-direction: column;
+   line-height: 50px;
+   padding: 0%;
+   margin: auto;
+}
+
+.register label{
+   justify-content: space-around;
+   }
+
+
+.register-confirm__error{
+   display:none;
+   color:blue;
+}
+.register-name__error{
+   color:blue;
+}
+
+.register-email__error{
+   color:blue;
+}
+
+.register-email__error:empty{
+   display:none;
+}
+
+.register-name__error:empty{
+   display:none;
+}
+.register-confirm--invalid .register-confirm__error{
+   display:initial;
+}
+.register__submit{
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 40rem){
+   main{
+       background-color: blue;
+    }
+   .register{
+   display: grid;
+}
+   .register label{
+   display:grid;
+}
+
+}
