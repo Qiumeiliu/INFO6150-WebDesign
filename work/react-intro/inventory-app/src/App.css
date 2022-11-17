@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+div .App {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  margin: 1rem;
+}
+
+button {
+  margin: 1rem;
+}
+
+.Reorder button {
+  background: white;
+  animation: fadeIn 4s;
+  -webkit-animation: fadeIn 4s;
+  -moz-animation: fadeIn 4s;
+  -o-animation: fadeIn 4s;
+  -ms-animation: fadeIn 4s;
+}
+
+@keyframes fadeIn {
+  0% { 
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.box {
+  width: 256px; height: 191px;
+  position: relative;
+}
+.text {
+  line-height: 30px;
+  position: absolute; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,.5);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+.fade {
+  -webkit-animation: fadeIn 4s 4s infinite;
+  animation: fadeIn 4s 4s infinite;	
+}
