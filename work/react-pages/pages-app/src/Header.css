@@ -1,0 +1,15 @@
+.header { 
+    display: grid; 
+    grid-template-areas: 
+    "header-logo header-title" 
+    "header-nav header-nav" 
+    ;
+    grid-template-columns: auto 1fr; 
+    background-color: skyblue; 
+    }
+    /* other css here */ 
+.header__nav { 
+    grid-area: header-nav; 
+    background-color: lime; /* to test */ 
+}
+    

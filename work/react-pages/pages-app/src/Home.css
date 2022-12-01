@@ -1,0 +1,12 @@
+.homehome{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.home_text{
+    
+    grid-column: 2/ 11;
+    border-style:solid;
+    border-width:medium;
+    margin: 10px;
+
+}
