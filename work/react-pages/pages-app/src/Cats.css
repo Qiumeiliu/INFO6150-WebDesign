@@ -1,0 +1,39 @@
+.cats_cards{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  
+  } 
+
+
+
+.cats_card{
+    
+    grid-column: span 4;
+    border-style:solid;
+    border-width:medium;
+    margin: 10px;
+}
+
+.cats_pic{
+    text-align: center;
+}
+
+.cats_text{
+    text-align: center;
+}
+
+/* .cats_card > a:link {
+    font-size: 5px;
+    border: 1px solid black;
+    border-radius: 1%;
+    color: black;
+    text-align: center;
+} */
+
+.linklink{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1%;
+    color: black;
+    text-align: center;
+}
