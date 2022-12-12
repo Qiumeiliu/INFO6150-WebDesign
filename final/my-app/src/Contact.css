@@ -1,0 +1,29 @@
+.contactPanel{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    gap: 0.5rem;
+    padding-top: 2rem;
+}
+
+.contactHelp{
+    grid-column: span 5/9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid lightgrey;
+        border-radius: 1rem;
+
+}
+
+
+
+
+.picture1{
+    align-items: center;
+    grid-row: span 1/2;
+}
+
+.contactText{
+    align-items: center;
+    grid-row: span 2/4;
+}

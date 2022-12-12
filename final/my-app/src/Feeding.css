@@ -1,0 +1,42 @@
+.panel1{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+  
+  } 
+
+  .panel2{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  
+  } 
+
+  .picpic{
+  grid-column: 2 / 4;
+
+}
+
+.texttext{
+  grid-column:  4/ 12;
+
+}
+
+h2{
+  text-align: center;
+}
+
+/* 
+ .panel1 .panel2{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+  } */
+  img {
+    max-width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,70 @@
+ .allImages .show{
+    border: 4px #fbb8ac solid;
+   
+
+} 
+
+
+
+.sepimg{
+    width:400px;
+    height:300px;
+}
+.allimages{
+    width:70px;
+    height:50px;
+    display: flex;
+}
+
+.imghtml{
+    width:70px;
+    height:50px;
+    display: flex;
+
+}
+
+
+
+
+.wholeContent{
+    display: flex;
+    /* grid-template-columns: repeat(12, 1fr);  */
+
+}
+.image{
+    cursor: pointer;
+}
+
+
+.includeButton{
+    display: flex;
+    /* aspect-ratio: 1/1; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* .text{
+    grid-column: span 4;
+} 
+ */
+
+
+
+/* .carousel-container{
+    background: #f1f1f1;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+
+.carousel-item{
+    height: 20rem;
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s cubic-bezier(0.39, 0.575, 0.565,1);
+}  */
