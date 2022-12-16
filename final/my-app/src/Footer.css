@@ -1,0 +1,11 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--header-bg);
+    
+}
+
+ul{
+    list-style: none;
+}

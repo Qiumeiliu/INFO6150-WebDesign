@@ -1,0 +1,12 @@
+.skiplink {
+    position: absolute;
+    left: -100%;
+    color: black;
+    background-color: white;
+  }
+  
+
+  .skiplink:focus {
+    left: 50%;
+  }
+  
